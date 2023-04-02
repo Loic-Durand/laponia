@@ -8,8 +8,8 @@
             "telegram_handle": "laponia_pool"
         },
         "about": {
-            "me": "My name is Loïc! Borned and raised in France, living in my cabin in the north of Sweden",
-            "server": "Baremetal, QubeOS, 64gb RAM, 8 cores cpu"
+            "me": "My name is Loïc! Born and raised in France, living in my cabin in the north of Sweden",
+            "server": "Baremetal, QubeOS, 64gb RAM, 8 cores CPU"
         }
     }
 }
