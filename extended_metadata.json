@@ -5,17 +5,11 @@
         "location": "Luleå, Sweden",
         "social": {
             "twitter_handle": "Laponia_pool",
-            "telegram_handle": "laponia_pool",
-            "facebook_handle": "",
-            "youtube_handle": "",
-            "twitch_handle": "",
-            "discord_handle": "",
-            "github_handle": ""
+            "telegram_handle": "laponia_pool"
         },
         "about": {
-            "me": "Single pool operator, living in the Swedish wilderness",
-            "server": "Baremetal server, QubeOS, 64gb RAM, 8 cores cpu",
-            "company": ""
+            "me": "My name is Loïc! Borned and raise in France, living in my cabin in the north of Sweden",
+            "server": "Baremetal, QubeOS, 64gb RAM, 8 cores cpu"
         }
     }
 }
