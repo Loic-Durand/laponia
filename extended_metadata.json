@@ -1,15 +1,36 @@
 {
-    "info": {
+      "info": {
         "url_png_icon_64x64": "https://i.ibb.co/sHgbLPL/miniature-black.png",
         "url_png_logo": "https://i.ibb.co/fFZd79c/hd-black-background-Copy.png",
         "location": "Luleå, Sweden",
         "social": {
             "twitter_handle": "Laponia_pool",
-            "telegram_handle": "laponia_pool"
+            "telegram_handle": "laponia_pool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "Lïx - LAPO#5422",
+            "github_handle": "Loic-Durand"
+        },
+        "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
         },
         "about": {
-            "me": "My name is Loïc! Born and raised in France, living in my cabin in the north of Sweden",
-            "server": "Baremetal, QubeOS, 64gb RAM, 8 cores CPU"
+            "me": "Born and raised in France, living in my cabin in the far north of Sweden",
+            "server": "Baremetal, QubeOS",
+            "company": ""
         }
+    },
+    "my-pool-ids": {
+        "0": "8b7a0faa3fb61ce93d1013db3e157c53c3c4060e4872d8d82fa66c6b"
+    },
+    "when-satured-then-recommend": {
+        "0": "0000fc522cea692e3e714b392d90cec75e4b87542c5f9638bf9a363a",
+        "1": "dacf06a23e4aaf119024e63deb79861ca175b24e7d44d97fb92b1a22"
     }
 }
