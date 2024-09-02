@@ -1,0 +1,31 @@
+{
+    "hahsAlgorithm": "blake2b-256",
+    "body": {
+        "paymentAddress": "addr1q8sqmppcw38p2mnsguthlxgd8un2jk0ecdv64nl8tvjarstw5lp075dqwmwkrcusrfts7nh6p6am4snam0hj8nqg8nzs64y82y",
+        "givenName": "Laponia",
+        "image": {
+            "@type": "ImageObject",
+            "contentUrl": "https://i.ibb.co/1LnjzJX/medium.png",
+        },
+        "objectives": "We want to defend and promote the decentralisation of Cardano.",
+        "motivations": "The core values of Cardano need to be protected.",
+        "qualifications": "We offer to our delegators a full package, with a single stake pool, bare-metal, Mithril signer, DRep and located in the 65th north parallel",
+        "references": [
+          {
+            "@type": "Link",
+            "label": "Website",
+            "uri": "https://laponia.io/"
+          },
+          {
+            "@type": "Link",
+            "label": "X",
+            "uri": "https://x.com/laponia_pool"
+          },
+          {
+            "@type": "Link",
+            "label": "Telegram",
+            "uri": "https://t.me/laponia_pool"
+          }
+        ]
+    }
+}
