@@ -1,62 +1,105 @@
 {
-    "@context": {
-        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
-        "hashAlgorithm": "CIP100:hashAlgorithm",
-        "body": {
-            "@id": "CIP119:body",
-            "@context": {
-                "references": {
-                    "@id": "CIP119:references",
-                    "@container": "@set",
-                    "@context": {
-                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-                        "Other": "CIP100:OtherReference",
-                        "label": "CIP100:reference-label",
-                        "uri": "CIP100:reference-uri"
-                    }
-                },
-                "paymentAddress": "CIP119:paymentAddress",
-                "givenName": "CIP119:givenName",
-                "image": {
-                    "@id": "CIP119:image",
-                    "@context": {
-                        "ImageObject": "https://schema.org/ImageObject"
-                    }
-                },
-                "objectives": "CIP119:objectives",
-                "motivations": "CIP119:motivations",
-                "qualifications": "CIP119:qualifications"
-            }
-        }
-    },
-    "hahsAlgorithm": "blake2b-256",
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
-        "paymentAddress": "addr1q8sqmppcw38p2mnsguthlxgd8un2jk0ecdv64nl8tvjarstw5lp075dqwmwkrcusrfts7nh6p6am4snam0hj8nqg8nzs64y82y",
-        "givenName": "Laponia",
-        "image": {
-            "@type": "ImageObject",
-            "contentUrl": "https://i.ibb.co/1LnjzJX/medium.png",
-        },
-        "objectives": "We want to defend and promote the decentralisation of Cardano.",
-        "motivations": "The core values of Cardano need to be protected.",
-        "qualifications": "We offer to our delegators a full package, with a single stake pool, bare-metal, Mithril signer, DRep and located in the 65th north parallel",
-        "references": [
-          {
-            "@type": "Link",
-            "label": "Website",
-            "uri": "https://laponia.io/"
-          },
-          {
-            "@type": "Link",
-            "label": "X",
-            "uri": "https://x.com/laponia_pool"
-          },
-          {
-            "@type": "Link",
-            "label": "Telegram",
-            "uri": "https://t.me/laponia_pool"
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
           }
-        ]
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:update-uri"
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
     }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Laponia-DRep",
+    "abstract": "Laponia is offering a complete package to our delegators, with an independant single stake pool, bare metal, mithril signer, located at the 65th north parallel and DRep",
+    "motivations": "By being independant, we want to improve the decentralisation of the network and make our voice heard",
+    "rationale": "Freedom is decentralised",
+    "paymentAddress": "addr1q8sqmppcw38p2mnsguthlxgd8un2jk0ecdv64nl8tvjarstw5lp075dqwmwkrcusrfts7nh6p6am4snam0hj8nqg8nzs64y82y",
+    "givenName": "Laponia",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://i.ibb.co/1LnjzJX/medium.png",
+      "sha256": "5064c61e6c390c269c3f5abfd6e495de6029d8d8ff20cbeef5845be88ff752cd"
+    },
+    "objectives": "Defend the core values that built Cardano",
+    "qualifications": "Deep knowledge on how Cardano works by running a stake pool, constant research and passion of blockchain technology",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Website",
+        "uri": "https://laponia.io/"
+      },
+      {
+        "@type": "Other",
+        "label": "Telegram",
+        "uri": "https://t.me/laponia_pool"
+      },
+      {
+        "@type": "Other",
+        "label": "X",
+        "uri": "https://x.com/laponia_pool"
+      }
+    ]
+  },
+  "authors": []
 }
+
